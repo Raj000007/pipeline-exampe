@@ -9,7 +9,7 @@ steps
  {
       withMaven (maven: 'MAVEN-HOME')
 {
-sh 'mvn clean compile'
+bash 'mvn clean compile'
 }
 }
 }
